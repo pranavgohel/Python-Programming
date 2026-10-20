@@ -1,0 +1,16 @@
+str=input("Enter string here:")
+age=input("Enter age here:")
+
+print("------String slicing and fromatting------")
+print(str[0:3])
+print(str[0:6:2])
+print(str[::-1])
+print(f"My name is {str} my age is {age}")
+
+print("------String in-built functions------")
+print(str.upper())
+print(str.find('a'))
+print(str.join(age))
+print(str.count('a'))
+print(str.replace('a','4'))
+print(str.split(' '))
